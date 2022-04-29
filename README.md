@@ -1,6 +1,6 @@
 # DC Tower Elevator Challenge
 
-My implementation of the DC Tower Elevator Challenge using Java Threads and Object-Oriented Programming.
+My implementation of the DC Tower Elevator Challenge using Java Thread and Object-Oriented Programming.
 
 Javadocs have been provided and can be accessed by opening `doc/index.html` within your preferred web browser.
 
