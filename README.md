@@ -2,6 +2,8 @@
 
 My implementation of the DC Tower Elevator Challenge using Java Threads and Object-Oriented Programming.
 
+Javadocs have been provided and can be accessed by opening `doc/index.html` within your preferred web browser.
+
 ## Usage
 
 This project was compiled using `JDK 17.0.2 2022-01-18 LTS`. Please ensure you have version 17.0.2 or higher installed to run this program.
