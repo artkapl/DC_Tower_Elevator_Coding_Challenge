@@ -1,6 +1,6 @@
-package elevator;
+package main.elevator;
 
-import request.Request;
+import main.request.Request;
 
 import java.util.ArrayList;
 import java.util.List;

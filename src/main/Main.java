@@ -1,9 +1,11 @@
-import elevator.Direction;
-import exception.ElevatorException;
-import request.Request;
+package main;
+
+import main.elevator.Direction;
+import main.exception.ElevatorException;
+import main.request.Request;
 
 /**
- * The Main class is used to start the application and simulates a number of requests for the elevators in the building to process.
+ * The main.Main class is used to start the application and simulates a number of requests for the elevators in the building to process.
  *
  * Note: Command line print statements are written in German for the purpose of this Coding Challenge.
  *
@@ -12,10 +14,10 @@ import request.Request;
 public class Main {
 
     /**
-     * The entry point of application which also functions as the testing area for the elevator management system.
+     * The entry point of application which also functions as the testing area for the main.elevator management system.
      *
      * @param args the input arguments
-     * @throws ElevatorException the elevator exception
+     * @throws ElevatorException the main.elevator main.exception
      */
     public static void main(String[] args) throws ElevatorException {
 

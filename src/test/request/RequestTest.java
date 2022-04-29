@@ -1,7 +1,8 @@
-package request;
+package test.request;
 
-import elevator.Direction;
-import exception.ElevatorException;
+import main.elevator.Direction;
+import main.exception.ElevatorException;
+import main.request.Request;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

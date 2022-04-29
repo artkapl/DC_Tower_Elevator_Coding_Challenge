@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="dc.created" content="2022-04-29">
-<meta name="description" content="declaration: package: request, class: Request">
+<meta name="description" content="declaration: package: main.request, class: Request">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../script-dir/jquery-ui.min.css" title="Style">
@@ -68,17 +68,17 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">request</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">main.request</a></div>
 <h1 title="Class Request" class="title">Class Request</h1>
 </div>
 <div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
-<div class="inheritance">request.Request</div>
+<div class="inheritance">main.request.Request</div>
 </div>
 <section class="class-description" id="class-description">
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">Request</span>
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>
-<div class="block">The type Request. A request consists of the current floor from which an elevator was requested, the intended destination and the direction the elevator needs to travel.</div>
+<div class="block">The type Request. A main.request consists of the current floor from which an main.elevator was requested, the intended destination and the direction the main.elevator needs to travel.</div>
 <dl class="notes">
 <dt>Author:</dt>
 <dd>Arthur Kaplan</dd>
@@ -101,7 +101,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first odd-row-color"><code>private int</code></div>
 <div class="col-second odd-row-color"><code><a href="#destinationRequestFloor" class="member-name-link">destinationRequestFloor</a></code></div>
 <div class="col-last odd-row-color">&nbsp;</div>
-<div class="col-first even-row-color"><code>private final <a href="../elevator/Direction.html" title="enum class in elevator">Direction</a></code></div>
+<div class="col-first even-row-color"><code>private final <a href="../elevator/Direction.html" title="enum class in main.elevator">Direction</a></code></div>
 <div class="col-second even-row-color"><code><a href="#direction" class="member-name-link">direction</a></code></div>
 <div class="col-last even-row-color">&nbsp;</div>
 </div>
@@ -117,7 +117,7 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-last">Description</div>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(int,int,elevator.Direction)" class="member-name-link">Request</a><wbr>(int&nbsp;currentRequestFloor,
  int&nbsp;destinationRequestFloor,
- <a href="../elevator/Direction.html" title="enum class in elevator">Direction</a>&nbsp;direction)</code></div>
+ <a href="../elevator/Direction.html" title="enum class in main.elevator">Direction</a>&nbsp;direction)</code></div>
 <div class="col-last even-row-color">
 <div class="block">Instantiates a new Request.</div>
 </div>
@@ -148,7 +148,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getDirection()" class="member-name-link">getDirection</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Gets the direction in which the elevator currently travels.</div>
+<div class="block">Gets the direction in which the main.elevator currently travels.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setCurrentRequestFloor(int)" class="member-name-link">setCurrentRequestFloor</a><wbr>(int&nbsp;currentRequestFloor)</code></div>
@@ -192,7 +192,7 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="direction">
 <h3>direction</h3>
-<div class="member-signature"><span class="modifiers">private final</span>&nbsp;<span class="return-type"><a href="../elevator/Direction.html" title="enum class in elevator">Direction</a></span>&nbsp;<span class="element-name">direction</span></div>
+<div class="member-signature"><span class="modifiers">private final</span>&nbsp;<span class="return-type"><a href="../elevator/Direction.html" title="enum class in main.elevator">Direction</a></span>&nbsp;<span class="element-name">direction</span></div>
 </section>
 </li>
 </ul>
@@ -208,16 +208,16 @@ loadScripts(document, 'script');</script>
 <h3>Request</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">Request</span><wbr><span class="parameters">(int&nbsp;currentRequestFloor,
  int&nbsp;destinationRequestFloor,
- <a href="../elevator/Direction.html" title="enum class in elevator">Direction</a>&nbsp;direction)</span>
-        throws <span class="exceptions"><a href="../exception/ElevatorException.html" title="class in exception">ElevatorException</a></span></div>
+ <a href="../elevator/Direction.html" title="enum class in main.elevator">Direction</a>&nbsp;direction)</span>
+        throws <span class="exceptions"><a href="../exception/ElevatorException.html" title="class in main.exception">ElevatorException</a></span></div>
 <div class="block">Instantiates a new Request.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>currentRequestFloor</code> - the current request floor</dd>
-<dd><code>destinationRequestFloor</code> - the destination request floor</dd>
+<dd><code>currentRequestFloor</code> - the current main.request floor</dd>
+<dd><code>destinationRequestFloor</code> - the destination main.request floor</dd>
 <dd><code>direction</code> - the travel direction</dd>
 <dt>Throws:</dt>
-<dd><code><a href="../exception/ElevatorException.html" title="class in exception">ElevatorException</a></code> - the elevator exception</dd>
+<dd><code><a href="../exception/ElevatorException.html" title="class in main.exception">ElevatorException</a></code> - the main.elevator main.exception</dd>
 </dl>
 </section>
 </li>
@@ -236,7 +236,7 @@ loadScripts(document, 'script');</script>
 <div class="block">Gets the current floor</div>
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the current floor from this request</dd>
+<dd>the current floor from this main.request</dd>
 </dl>
 </section>
 </li>
@@ -244,13 +244,13 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="setCurrentRequestFloor(int)">
 <h3>setCurrentRequestFloor</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setCurrentRequestFloor</span><wbr><span class="parameters">(int&nbsp;currentRequestFloor)</span>
-                            throws <span class="exceptions"><a href="../exception/ElevatorException.html" title="class in exception">ElevatorException</a></span></div>
+                            throws <span class="exceptions"><a href="../exception/ElevatorException.html" title="class in main.exception">ElevatorException</a></span></div>
 <div class="block">Sets current floor.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>currentRequestFloor</code> - the current floor from this request</dd>
+<dd><code>currentRequestFloor</code> - the current floor from this main.request</dd>
 <dt>Throws:</dt>
-<dd><code><a href="../exception/ElevatorException.html" title="class in exception">ElevatorException</a></code> - the elevator exception</dd>
+<dd><code><a href="../exception/ElevatorException.html" title="class in main.exception">ElevatorException</a></code> - the main.elevator main.exception</dd>
 </dl>
 </section>
 </li>
@@ -261,7 +261,7 @@ loadScripts(document, 'script');</script>
 <div class="block">Gets destination floor.</div>
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the destination floor for this request</dd>
+<dd>the destination floor for this main.request</dd>
 </dl>
 </section>
 </li>
@@ -269,13 +269,13 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="setDestinationRequestFloor(int)">
 <h3>setDestinationRequestFloor</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setDestinationRequestFloor</span><wbr><span class="parameters">(int&nbsp;destinationRequestFloor)</span>
-                                throws <span class="exceptions"><a href="../exception/ElevatorException.html" title="class in exception">ElevatorException</a></span></div>
+                                throws <span class="exceptions"><a href="../exception/ElevatorException.html" title="class in main.exception">ElevatorException</a></span></div>
 <div class="block">Sets destination floor.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>destinationRequestFloor</code> - the destination floor for this request</dd>
+<dd><code>destinationRequestFloor</code> - the destination floor for this main.request</dd>
 <dt>Throws:</dt>
-<dd><code><a href="../exception/ElevatorException.html" title="class in exception">ElevatorException</a></code> - the elevator exception</dd>
+<dd><code><a href="../exception/ElevatorException.html" title="class in main.exception">ElevatorException</a></code> - the main.elevator main.exception</dd>
 </dl>
 </section>
 </li>
@@ -283,7 +283,7 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="getDirection()">
 <h3>getDirection</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getDirection</span>()</div>
-<div class="block">Gets the direction in which the elevator currently travels.</div>
+<div class="block">Gets the direction in which the main.elevator currently travels.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>the direction as a String object</dd>

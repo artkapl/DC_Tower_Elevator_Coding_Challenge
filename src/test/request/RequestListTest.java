@@ -1,7 +1,9 @@
-package request;
+package test.request;
 
-import elevator.Direction;
-import exception.ElevatorException;
+import main.request.RequestList;
+import main.request.Request;
+import main.elevator.Direction;
+import main.exception.ElevatorException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

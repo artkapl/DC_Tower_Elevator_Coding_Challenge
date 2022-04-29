@@ -1,20 +1,20 @@
-package exception;
+package main.exception;
 
 /**
- * The custom Elevator exception which is used by several classes within this project.
+ * The custom Elevator main.exception which is used by several classes within this project.
  *
  * @author Arthur Kaplan
  */
 public class ElevatorException extends Exception {
 
     /**
-     * Instantiates a new Elevator exception.
+     * Instantiates a new Elevator main.exception.
      */
     public ElevatorException() {
     }
 
     /**
-     * Instantiates a new Elevator exception.
+     * Instantiates a new Elevator main.exception.
      *
      * @param message the message
      */
@@ -23,7 +23,7 @@ public class ElevatorException extends Exception {
     }
 
     /**
-     * Instantiates a new Elevator exception.
+     * Instantiates a new Elevator main.exception.
      *
      * @param message the message
      * @param cause   the cause
@@ -33,7 +33,7 @@ public class ElevatorException extends Exception {
     }
 
     /**
-     * Instantiates a new Elevator exception.
+     * Instantiates a new Elevator main.exception.
      *
      * @param cause the cause
      */
@@ -42,7 +42,7 @@ public class ElevatorException extends Exception {
     }
 
     /**
-     * Instantiates a new Elevator exception.
+     * Instantiates a new Elevator main.exception.
      *
      * @param message            the message
      * @param cause              the cause
