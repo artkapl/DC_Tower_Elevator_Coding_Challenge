@@ -14,10 +14,10 @@ import main.request.Request;
 public class Main {
 
     /**
-     * The entry point of application which also functions as the testing area for the main.elevator management system.
+     * The entry point of application which also functions as the testing area for the elevator management system.
      *
      * @param args the input arguments
-     * @throws ElevatorException the main.elevator main.exception
+     * @throws ElevatorException the elevator exception
      */
     public static void main(String[] args) throws ElevatorException {
 

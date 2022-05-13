@@ -8,13 +8,13 @@ package main.exception;
 public class ElevatorException extends Exception {
 
     /**
-     * Instantiates a new Elevator main.exception.
+     * Instantiates a new Elevator exception.
      */
     public ElevatorException() {
     }
 
     /**
-     * Instantiates a new Elevator main.exception.
+     * Instantiates a new Elevator exception.
      *
      * @param message the message
      */
@@ -23,7 +23,7 @@ public class ElevatorException extends Exception {
     }
 
     /**
-     * Instantiates a new Elevator main.exception.
+     * Instantiates a new Elevator exception.
      *
      * @param message the message
      * @param cause   the cause
@@ -33,7 +33,7 @@ public class ElevatorException extends Exception {
     }
 
     /**
-     * Instantiates a new Elevator main.exception.
+     * Instantiates a new Elevator exception.
      *
      * @param cause the cause
      */
@@ -42,7 +42,7 @@ public class ElevatorException extends Exception {
     }
 
     /**
-     * Instantiates a new Elevator main.exception.
+     * Instantiates a new Elevator exception.
      *
      * @param message            the message
      * @param cause              the cause

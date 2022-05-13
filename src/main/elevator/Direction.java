@@ -1,7 +1,7 @@
 package main.elevator;
 
 /**
- * An enum denoting the direction an main.elevator can travel (up or down).
+ * An enum denoting the direction an elevator can travel (up or down).
  *
  * @author Arthur Kaplan
  */

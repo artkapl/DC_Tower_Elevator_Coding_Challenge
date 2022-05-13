@@ -17,10 +17,10 @@ public class Request {
     /**
      * Instantiates a new Request.
      *
-     * @param currentRequestFloor     the current main.request floor
-     * @param destinationRequestFloor the destination main.request floor
+     * @param currentRequestFloor     the current request floor
+     * @param destinationRequestFloor the destination request floor
      * @param direction               the travel direction
-     * @throws ElevatorException the main.elevator main.exception
+     * @throws ElevatorException the elevator exception
      */
     public Request(int currentRequestFloor, int destinationRequestFloor, Direction direction) throws ElevatorException {
         setCurrentRequestFloor(currentRequestFloor);
@@ -30,7 +30,7 @@ public class Request {
 
     /**
      * Gets the current floor
-     * @return the current floor from this main.request
+     * @return the current floor from this request
      */
     public int getCurrentRequestFloor() {
         return currentRequestFloor;
@@ -39,8 +39,8 @@ public class Request {
     /**
      * Sets current floor.
      *
-     * @param currentRequestFloor the current floor from this main.request
-     * @throws ElevatorException the main.elevator main.exception
+     * @param currentRequestFloor the current floor from this request
+     * @throws ElevatorException the elevator exception
      */
     public void setCurrentRequestFloor(int currentRequestFloor) throws ElevatorException {
         if (currentRequestFloor < 0 || currentRequestFloor >= 55) {
@@ -53,7 +53,7 @@ public class Request {
     /**
      * Gets destination floor.
      *
-     * @return the destination floor for this main.request
+     * @return the destination floor for this request
      */
     public int getDestinationRequestFloor() {
         return destinationRequestFloor;
@@ -62,8 +62,8 @@ public class Request {
     /**
      * Sets destination floor.
      *
-     * @param destinationRequestFloor the destination floor for this main.request
-     * @throws ElevatorException the main.elevator main.exception
+     * @param destinationRequestFloor the destination floor for this request
+     * @throws ElevatorException the elevator exception
      */
     public void setDestinationRequestFloor(int destinationRequestFloor) throws ElevatorException {
         if (destinationRequestFloor < 0 || destinationRequestFloor >= 55) {
@@ -74,7 +74,7 @@ public class Request {
     }
 
     /**
-     * Gets the direction in which the main.elevator currently travels.
+     * Gets the direction in which the elevator currently travels.
      *
      * @return the direction as a String object
      */

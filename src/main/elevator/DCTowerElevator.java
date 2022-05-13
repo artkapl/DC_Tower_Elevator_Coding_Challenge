@@ -4,7 +4,7 @@ import main.exception.ElevatorException;
 import main.request.Request;
 
 /**
- * The DC tower main.elevator class is an implementation of the Elevator interface.
+ * The DC tower elevator class is an implementation of the Elevator interface.
  *
  * @author Arthur Kaplan
  */
@@ -17,9 +17,9 @@ public class DCTowerElevator implements main.elevator.Elevator {
     private Request request;
 
     /**
-     * Instantiates a new DC tower main.elevator.
+     * Instantiates a new DC tower elevator.
      *
-     * @param elevatorNumber the main.elevator number
+     * @param elevatorNumber the elevator number
      */
     public DCTowerElevator(int elevatorNumber) {
         this.elevatorNumber = elevatorNumber;
@@ -28,7 +28,7 @@ public class DCTowerElevator implements main.elevator.Elevator {
     }
 
     /**
-     * Calculates a delay time which an main.elevator needs to reach its destination.<br>
+     * Calculates a delay time which an elevator needs to reach its destination.<br>
      * Arbitrarily set to the number of floors from the current floor to the destination multiplied by 0.5 seconds.
      *
      * @return the delay in milliseconds

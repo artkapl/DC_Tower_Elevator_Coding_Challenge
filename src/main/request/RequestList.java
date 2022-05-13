@@ -15,7 +15,7 @@ public class RequestList {
     private final Queue<Request> requests = new LinkedList<>();
 
     /**
-     * Gets a list of requests. {@code Queue} was chosen for its use of "First In First Out", as this is ideal for processing main.request priority.
+     * Gets a list of requests. {@code Queue} was chosen for its use of "First In First Out", as this is ideal for processing request priority.
      *
      * @return the requests
      */
@@ -24,10 +24,10 @@ public class RequestList {
     }
 
     /**
-     * Add a main.request to the list.
+     * Add a request to the list.
      *
-     * @param request the main.request to be added
-     * @throws ElevatorException the main.elevator main.exception
+     * @param request the request to be added
+     * @throws ElevatorException the elevator exception
      */
     public synchronized void addRequestToList(Request request) throws ElevatorException {
         if (requests.contains(request)) {
@@ -38,16 +38,16 @@ public class RequestList {
     }
 
     /**
-     * Gets the next main.request and removes it from the list.
+     * Gets the next request and removes it from the list.
      *
-     * @return the next main.request and remove from list
+     * @return the next request and remove from list
      */
     public synchronized Request getNextRequestAndRemoveFromList() {
         return requests.poll();
     }
 
     /**
-     * Checks whether the main.request list contains a main.request
+     * Checks whether the request list contains a request
      *
      * @return the boolean
      */
